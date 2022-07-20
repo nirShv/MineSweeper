@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="initGame()" >
+    <h1>Mine Sweeper</h1>
+    
+    <div class="img-continer">
+    <img  clss="smiley" src="img/1.jpg">
+    </div>
+ 
+    <div class="levels">
+        <h2>Chose Your Level:</h2>
+        <button onclick="choseLevel(4)">Beginner(4*4)</button>   
+        <button onclick="choseLevel(8)">Medium(8*8)</button>    
+        <button onclick="choseLevel(12)">Expert!(12*12)</button>
+    </div>
+    <br/>
+
+    <div class="board-container"></div>
+
+    <div class="lives"></div>
+    <div class="timer"></div>
+
+    <div class="footer">
+    <h2>🤜Nir Shvarchberg🤛</h2>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

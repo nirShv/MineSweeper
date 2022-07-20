@@ -1,0 +1,90 @@
+body {
+    background: peachpuff;
+    color: black;
+    text-align: center;
+}
+.img-continer{
+    cursor: pointer;
+}
+  
+.board-containe {
+    /* padding-top: 60px;
+    width: 600px; */
+    margin: auto;
+}
+ 
+table {
+    /* border-collapse:separate;
+    border-spacing: 10px; */
+    margin: auto;
+}
+
+.lives{
+    position: absolute;
+    background: rgb(233, 228, 160);
+    border-radius: 10px;
+    width:  200px;
+    height: 50px; 
+    right:30px;
+    top: 50%;
+    /* vertical-align: center;
+    margin: auto; */
+
+    /* transition-property: transform;
+    transition-duration: 1s; */
+    transition: 0.6s transform, 1.8s opacity 
+}
+
+.timer{
+    position: absolute;
+    background: rgb(233, 228, 160);
+    border-radius: 10px;
+    width:  200px;
+    height: 50px; 
+    right:30px;
+    top: 60%;
+    /* transition: 0.6s transform, 1.8s opacity  */
+}
+
+.cell {
+    width: 35px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+    cursor: pointer;
+}
+
+.Shown{
+    background: white
+}
+
+.loss{
+    background: rgb(201, 152, 152)
+}
+
+.footer{
+    height: 50px;
+    background: rgb(246, 168, 100)
+}
+/*
+.selected {
+    background: linear-gradient(to top,  black, orange);
+}
+.booked {
+    background: linear-gradient(to top,  black,  red);
+}
+.booked:hover {
+    background: linear-gradient(to top,  black, gray);
+    cursor: not-allowed;
+}
+
+.popup {
+    background-color: orange;
+    padding: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+ */
