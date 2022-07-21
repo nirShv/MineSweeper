@@ -26,8 +26,26 @@
 
     <div class="board-container"></div>
 
-    <div class="lives"></div>
-    <div class="timer"></div>
+    <div class="Figurine status"></div>
+    <div class="Figurine lives"></div>
+    <div class="Figurine timer"></div>
+
+    <div class="Figurine records">
+       <h4>Champions of Champions:</h4>
+       <span class="records-level4"></span>
+       <span class="records-level8"></span>
+       <span class="records-level12"></span>
+    </div>
+
+    <div onclick="getHintStatus()" class="Figurine hints"> 
+        <span onclick="getHintStatus(this)" class="hint1"></span>
+        <span onclick="getHintStatus(this)" class="hint2"></span>
+        <span onclick="getHintStatus(this)" class="hint3"></span>
+    </div>
+
+    <div onclick="geySafeMove()" class="Figurine safe">safe Click</div>
+
+    <div onclick="getManuallySratus()" class="Figurine Manually">Manually positioned mines</div>
 
     <div class="footer">
     <h2>🤜Nir Shvarchberg🤛</h2>
@@ -35,6 +53,7 @@
 
     <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
